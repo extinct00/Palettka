@@ -1,0 +1,13 @@
+Amount|Item|Description
+
+2|PalettkaPCB|Ordered from JLCPCB, 1.6mm thickness, blue, HASL finish, 1 design in file
+2|PalettkaPlate|Ordered from JLCPCB or could be 3D printed or cut from acrylic or other polymers (Careful about harmful gasses while laser cutting polymers, DO NOT cut abs or PVC or any other materials with halogens), 1mm thickness, blue, HASL finish
+2|PalettkaCase|3D printed at home, from your local 3D print farm or simply ordered from JLCPCB(JLC3D), from what I have seen their prints come out pretty crisp and the resin printing is stunning and they have lots of materials to choose from, once I finish the design I will take a look at the possibility to order the case from them, depends on the shipping price and material cost, at home it can be printed with 60 grams of material which is very cheap about 1$.
+36|REDRAGON Low profile switches from AliExpress, extremely cheap and quite good quality for a low profile switch, only drawback is that they have a unique pin placement therefore you need a PCB designed with that in mind
+36|1U keycaps, only go for the low profile ones and DO NOT buy choc version of them, the REDRAGON LP switches have a classic MX stem, I highly recommend browsing on AliExpress for low profile keycaps from Womier, these look fine will test them later once they arrive
+10|2x?(will add later) black steel screws with hex pin head
+10|2x4 black steel screws with hex pin head
+10|Brass 8mm standoffs, round look for them in your local hardware store or ideally on Ali they have pretty good selection there
+2|RP2040 Zero|Waveshare or Clone, both work fine, very cheap about 2.5$/pc
+2|USB-C 6pin connector|only 6 pin version and Horizontal mount or so called DIP, don't go for the mid mount it will not work, but I could use it my next revision for wireless Palettka_:P
+Ofcourse you will need to solder everything together so you will need a soldering station or a cheap iron, lead-free solder, desoldering wick or a solder sucker, flux(optional) and tweezers.
