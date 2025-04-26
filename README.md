@@ -25,6 +25,22 @@
 | M2x6        | 10pcs    | 2$      | [🛒 AliExpress](https://www.aliexpress.com/item/32810852732.html?spm=a2g0o.productlist.main.3.31c24d9586plEQ&algo_pvid=c52546e2-d48f-48a0-962e-8c84b8276c95&algo_exp_id=c52546e2-d48f-48a0-962e-8c84b8276c95-1&pdp_ext_f=%7B%22order%22%3A%2214716%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%212.57%212.57%21%21%212.57%212.57%21%40210385db17456974058006383e99e7%2112000037550700724%21sea%21CZ%212454624435%21X&curPageLogUid=PoVLulWpUauT&utparam-url=scene%3Asearch%7Cquery_from%3A) | Ideally go for black steel screws with either a torx or hex head                                    |
 | Spacers     | 10pcs    | 3$      | [🛒 AliExpress](https://www.aliexpress.com/item/1005002249479644.html?spm=a2g0o.productlist.main.27.115e3ec0An3Tff&algo_pvid=cc638886-0911-42f3-aa69-42ab0464883a&algo_exp_id=cc638886-0911-42f3-aa69-42ab0464883a-13&pdp_ext_f=%7B%22order%22%3A%22393%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%212.58%212.58%21%21%212.58%212.58%21%40211b813b17456972552947163e8b2a%2112000019652348049%21sea%21CZ%212454624435%21X&curPageLogUid=BiDbiqYLDnxS&utparam-url=scene%3Asearch%7Cquery_from%3A) | Brass round spacers M2x7mm with OD 3mm |
 
+## Ordering guide
+### [JLCPCB](https://jlcpcb.com)
+This is the FAB house of my choice, since the PCB is designed to fit into the special offer 10x10cm constraint by JLCPCB, it seems like a really good choice (2$ for 5pcs).
+#### JLC options
+- PCB quantity: 5
+- Different designs: 1
+- Thickness: 1.6mm
+- Color: blue, or whatever you prefer
+- Finish: doesnt really matter
+- Mark on PCB: remove mark
+
+**Choose whatever color you want BUT CHOOSE THICKNESS OF 1.6MM.**
+![PCB order options.](Pictures/JLCPCB_PCB.png "1.6 mm")
+**Choose whatever color you want BUT CHOOSE THICKNESS OF 1.0MM.**
+![Plate order options.](Pictures/JLCPCB_Plate.png "1.0 mm")
+
 ## Build guide
 ### Soldering
 You will need a soldering iron and some solder
