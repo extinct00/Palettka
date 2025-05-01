@@ -36,8 +36,13 @@ This is the FAB house of my choice, since the PCB is designed to fit into the sp
 - Finish: doesnt really matter
 - Mark on PCB: remove mark
 
+**PCB**
+---------------
 **Choose whatever color you want BUT CHOOSE THICKNESS OF 1.6MM.**
 ![PCB order options.](Pictures/JLCPCB_PCB.png "1.6 mm")
+
+**Plate**
+---------------
 **Choose whatever color you want BUT CHOOSE THICKNESS OF 1.0MM.**
 ![Plate order options.](Pictures/JLCPCB_Plate.png "1.0 mm")
 
