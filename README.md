@@ -54,13 +54,13 @@ You will need a soldering iron and some solder
 ### Customization
 ## Images
 *Palettka in an orange case🧡*
-![Palettka from the front.](Pictures/goodFront.jpg "Palettka from the front")
+![Palettka from the front.](Pictures/goodFront.JPG "Palettka from the front")
 *Thin and light-weight*
-![Palettka from and angle.](Pictures/front.jpg "Palettka from and angle.")
+![Palettka from and angle.](Pictures/front.JPG "Palettka from and angle.")
 *Only USB-C connectors no more 🔥💀 microcontrollers*
-![Palettka from the front again.](Pictures/croppedFront.jpg "Palettka from the front again.")
+![Palettka from the front again.](Pictures/croppedFront.JPG "Palettka from the front again.")
 *Fancy blue PCB and clicky switches*
-![Palettka with no keycaps.](Pictures/noKeycaps.jpg "Palettka with no keycaps.")
+![Palettka with no keycaps.](Pictures/noKeycaps.JPG "Palettka with no keycaps.")
 *Bottom of the keyboard in a exploded view, rendered*
 ![Palettka with no keycaps.](Pictures/explode_bottom.png "Palettka with no keycaps.")
 *Side exploded view, rendered*
