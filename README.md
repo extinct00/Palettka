@@ -1,6 +1,6 @@
 # Palettka
 ![Palettka.](Pictures/frontcover.png "Palettka")
-**<p style="text-align:center;">Palettka is a 3x5 LP split keyboard with a 3-key thumb-cluster.</p>**
+**<p align = center>Palettka is a 3x5 LP split keyboard with a 3-key thumb-cluster.</p>**
 ## Keypoints:
 - 💵 Very cheap build, around 50$ shipped to your door
 - 🪶 Low profile and light, great for your wrists
@@ -62,6 +62,6 @@ You will need a soldering iron and some solder
 *Fancy blue PCB and clicky switches*
 ![Palettka with no keycaps.](Pictures/noKeycaps.JPG "Palettka with no keycaps.")
 *Bottom of the keyboard in a exploded view, rendered*
-![Palettka with no keycaps.](Pictures/explode_bottom.png "Palettka with no keycaps.")
+![Render bottom.](Pictures/explode_bottom.png "Render bottom.")
 *Side exploded view, rendered*
-![Palettka with no keycaps.](Pictures/explode_side.png "Palettka with no keycaps.")
+![Render side.](Pictures/explode_side.png "Render side.")
