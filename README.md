@@ -8,6 +8,7 @@
 - 🌽 Key layout is very similar to Corne but with a slightly more agressive pinky stagger
 - 🔌 USB C connectors only, NO more frying up your microcontrollers - YES to hot-plugging
 
+*Side note:* The PCB is reversible and was designed to fit into JLCPCB special offer, where if you make your PCB smaller then 10x10cm you get 5 pieces for just 2 dollars. Same offer is used for the plate, but you can 3D print it yourself if you want. The Redragon low-profile switches are used in this build. They are extremely cheap for low-profile switches and feel okay, but don't expect anything special. In my opinion the red and black ones feel the best. Blue ones are little bit mushy but they do go *click-click* if thats what you are looking for.
 ## Bill of materials
 
 | Item        | Quantity | Total $ | Link | Notes                                                                                               |
@@ -28,13 +29,26 @@
 ## Ordering guide
 ### [JLCPCB](https://jlcpcb.com)
 This is the FAB house of my choice, since the PCB is designed to fit into the special offer 10x10cm constraint by JLCPCB, it seems like a really good choice (2$ for 5pcs).
-#### JLC options
+
+#### PCB OPTIONS
 - PCB quantity: 5
 - Different designs: 1
 - Thickness: 1.6mm
 - Color: blue, or whatever you prefer
 - Finish: doesnt really matter
 - Mark on PCB: remove mark
+
+*PCB is reversible so you only need to order it once*
+
+#### PLATE OPTIONS
+- PCB quantity: 5
+- Different designs: 1
+- Thickness: 1mm
+- Color: blue, or whatever you prefer
+- Finish: doesnt really matter
+- Mark on PCB: remove mark
+
+*Plate is reversible as well but order it in 1mm thickness*
 
 **PCB**
 ---------------
