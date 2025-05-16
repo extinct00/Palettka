@@ -30,6 +30,8 @@
 ### [JLCPCB](https://jlcpcb.com)
 This is the FAB house of my choice, since the PCB is designed to fit into the special offer 10x10cm constraint by JLCPCB, it seems like a really good choice (2$ for 5pcs).
 
+### PCB
+
 #### PCB OPTIONS
 - PCB quantity: 5
 - Different designs: 1
@@ -37,8 +39,12 @@ This is the FAB house of my choice, since the PCB is designed to fit into the sp
 - Color: blue, or whatever you prefer
 - Finish: doesnt really matter
 - Mark on PCB: remove mark
-
 *PCB is reversible so you only need to order it once*
+
+**Choose whatever color you want BUT CHOOSE THICKNESS OF 1.6MM.**
+![PCB order options.](Pictures/JLCPCB_PCB.png "1.6 mm")
+
+### PLATE
 
 #### PLATE OPTIONS
 - PCB quantity: 5
@@ -50,20 +56,54 @@ This is the FAB house of my choice, since the PCB is designed to fit into the sp
 
 *Plate is reversible as well but order it in 1mm thickness*
 
-**PCB**
----------------
-**Choose whatever color you want BUT CHOOSE THICKNESS OF 1.6MM.**
-![PCB order options.](Pictures/JLCPCB_PCB.png "1.6 mm")
-
-**Plate**
----------------
 **Choose whatever color you want BUT CHOOSE THICKNESS OF 1.0MM.**
 ![Plate order options.](Pictures/JLCPCB_Plate.png "1.0 mm")
 
-## Build guide
+## Build guide🛠️
+
 ### Soldering
-You will need a soldering iron and some solder
+If you want to solder the board yourself instead of ordering already preassembled one you will need a few items.
+- Soldering iron
+- Solder 0.7mm or smaller
+- Tweezers
+- Flux
+- Solder sucker (optional for reworking)
+
+**<p align="center">Lets get started!</p>**
+#### Step 1 - Layout the PCBs
+Place two PCBs on your table so that the cutouts are facing each other, they shoud be facing each other and be on the bottom of the board.
+![Two PCBs facing each other, ready to get hot and soldered](Pictures/two_PCBs)
+#### Step 2 - SMD Components
+Carefully open up your tape of diodes, but uncover about 10 of them max, otherwise you might bump into them and lose them. Prepare the two microcontrollers (RP-2040 Zero) and two USB-C connectors. Arrange your PCBs near the edge of your table and put all of the SMD components farther away from you.
+![Prepared table for some soldering](Pictures/prepared_table)
+#### Step 3 - Soldering diodes
+Locate all the pads for diodes, they should be marked with |<- symbol. Each diode has two pads that you will need to solder it to. To make it easier we will pre-tin one of the pads for each diode. Heat up your soldering iron to 335&deg;C and put some solder on the tip of your iron to deoxidize it and then wipe it off. Once you are ready press the tip of the iron to the pad and add some solder. You should feed the solder into both, the tip of the iron and the pad at the same time. Try to do it under 5 seconds so that you dont heat up the pad too much but dont be too scared if you need more time. Now do it 35 more times 🤖.
+
+![Picture of how to feed solder properly](Pictures/soldering_technique.jpg "Good technique")
+![Picture of how to feed solder properly](Pictures/proper_joints.jpg "Proper joints")
+ After you are done tinning the pads grab your tweezers and one diode. You will see a small line on one end of the diode, you should match that line with the line on the PCB. Place the diode so that both leads are on the pads, reheat the solder we added before and and hold it there for atleast 2 seconds. Properly heating the diode's leads ensures the solder bonds effectively with both the lead and the pad, forming a solid electrical and mechanical connection. Move on to the second lead and again heat up the lead, then add a small amount of solder and let it cool down.
+![Pre-tinned pads](Pictures/pre_tinned)
+![Properly soldered diode](Pictures/soldered_diode)
+#### Step 4 - Soldering USB-C
+I wish i had some tips but this part can be pretty tricky, especially the ground leads of the connector. For the pads i add little bit of flux, put solder on my iron tip and then slowly move it across all the pins of the connectors. If you do it correctly there should be no short between them. Iam adding a youtube video for this part.
+[Visual guide how to solder a USB-C connector](https://www.youtube.com/watch?v=e6TMxctCcxU)
+#### Step 5 - Soldering microcontroller
+Place the microcontroller so that the two buttons for reset and boot are facing up and the RP2040 chip is facing down. Thats how it will be soldered onto the PC board. Before you place it there though, you should pre-tin two pads in oposite corners. Doesnt really matter which ones but you can follow along with the pictures i provide. Place the controller buttons up and then align it so that both edges of FR-4 are aligned - in other words the USB-C connector needs to be sticking out outside. The pads should be aligned with the microcontroller casstelated holes but dont be afraid to move it little, the most imporant part here is that USB-C is sticking out and its somewhat centered so that the buttons can be accssed through the holes in the case. After you solder two opposite pads, you can move on soldering the rest.
+
+*💡Small tip is to use a conical tip, sometimes called B or B-series, and press it into the castellated hole then feed the solder into both the tip and pad. This will ensure proper connection.*
+#### Step 6 - Soldering switches
+Insert all of the Redragon low-profile switches into the plate with the logo facing down, only expection is letter B and N (assuming qwerty layout), switches at these two positions are flipped by 180&deg; (upside down). This modification is done so that the mictrocontroller can fit in between this switch and the bottom thumb key switch. It doesnt affect the typing experience. After you are done pressing in all the switches, **check that there are no bent pins and double check that they are straight** otherwise you might run into issues in next step. Align the plate with the PCB and slowly start pressing the two boards together. Watch how the pins slide into the PCB and look for potentionally stucked ones. It should go very smoothly without any significant resistance, if you cant press them together, slowy separate the two boards and check the pins again and try to straighten them with pliers if they are even slighty missaligned. Once the boards are together you can apply little bit more pressure and then solder all the 72 pins of the switches (both boards).
+![Plate with switches](Pictures/pre_tinned)
+![Detail of the reversed switch](Pictures/pre_tinned)
+![Straighten pins](Pictures/pre_tinned)
+![Soldered pins](Pictures/pre_tinned)
+#### Step ?? - Create a YouTube video
+
 ### Case assembly
+#### Step 1 - Prepare needed material
+#### Step 2 - Attach spacers
+#### Step 3 - Screw in the boards
+#### Step 4 - Keycaps
 ### Firmware flashing
 ### Customization
 ## Images
